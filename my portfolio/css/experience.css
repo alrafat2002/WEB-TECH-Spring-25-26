@@ -1,0 +1,49 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 20px;   
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;  
+}
+
+.experience-card {
+    background-color: white;
+    width: 70%;
+    margin: 20px auto;    
+    padding: 20px;       
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.experience-card img {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+.experience-card h2 {
+    margin: 10px 0;
+}
+
+.experience-card p {
+    margin: 8px 0;
+}
+.back-btn {
+    display: block;
+    width: 150px;
+    margin: 30px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-btn:hover {
+    background-color: #0056b3;
+}

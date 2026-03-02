@@ -1,0 +1,118 @@
+/* Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Main navigation */
+.main-nav {
+    background-color: #2b66b1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;        /* More balanced side spacing */
+    height: 75px;           /* Taller navbar */
+}
+
+/* Left & Right Menu */
+.nav-left,
+.nav-right {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* Perfect spacing between menu items */
+.nav-left li,
+.nav-right li {
+    margin-right: 300px;     /* Equal spacing between words */
+}
+
+/* Remove extra space from last item */
+.nav-left li:last-child,
+.nav-right li:last-child {
+    margin-right: 300px;
+}
+
+/* Menu text styling */
+.main-nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;        /* Bigger text */
+    letter-spacing: 2px;    /* Clean professional spacing */
+    transition: 0.3s ease;
+}
+
+/* Hover effect */
+.main-nav a:hover {
+    color: #ffd700;
+}
+
+/* Footer */
+.footer {
+    background-color: #1e3f75;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 50px;
+}
+
+.footer-content p {
+    margin: 8px 0;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+
+/* Content Styling */
+.content {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+/* Profile Image */
+.profile-img {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Name */
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+/* Subtitle */
+h2 {
+    font-size: 20px;
+    color: #2b66b1;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+/* Address */
+address {
+    font-style: normal;
+    color: gray;
+    margin-bottom: 30px;
+}
+
+/* About Section */
+.about h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.about p {
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.8;
+    font-size: 16px;
+}
+

@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 20px;   /* Box Model */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Project Card */
+.project-card {
+    background-color: white;
+    width: 80%;
+    margin: 20px auto;      /* Outside spacing */
+    padding: 20px;          /* Inside spacing */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.project-card h2 {
+    margin-bottom: 15px;
+}
+
+.project-card img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.project-card p {
+    margin: 10px 0;
+}
+
+.project-card ul {
+    margin-top: 5px;
+}
+
+/* Button */
+.back-btn {
+    display: block;
+    width: 150px;
+    margin: 30px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #ff9800;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-btn:hover {
+    background-color: #e68900;
+}

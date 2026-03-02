@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Form</title>
+</head>
+ 
+<body>
+<h1>Contact me Form</h1>
+ 
+    <form>
+ 
+        <fieldset>
+<legend>Personal Information</legend>
+ 
+            <table>
+ 
+                <tr>
+<td>First Name</td>
+<td><input type="text" maxlength="50" required></td>
+</tr>
+<tr>
+<td>Last Name</td>
+<td><input type="text" maxlength="50" required></td>
+</tr>
+ 
+                <tr>
+<td>Email</td>
+<td><input type="email" required></td>
+</tr>
+ 
+                <tr>
+<td>Gender</td>
+<td>
+<input type="radio" name="gender" value="male" required> Male
+<input type="radio" name="gender" value="female"> Female
+<input type="radio" name="gender" value="others" required> Others
+</td>
+</tr>
+                
+<tr>
+<td>Company</td>
+<td><input type="text" maxlength="50" required></td>
+</tr>
+ 
+                <tr>
+<td>Reason of Contact</td>
+<td>
+<input type="checkbox" name="Reason of Contact" value="Project" required> Project
+<input type="checkbox" name="Reason of Contact" value="Thesis"> Thesis
+<input type="checkbox" name="Reason of Contact" value="job" required> job
+</td>
+</tr>
+ 
+                <tr>
+<td>Topics</td>
+<td>
+<input type="checkbox" name="Topics" value="Web Development" required> Web Development
+<input type="checkbox" name="Topics" value="Mobile Development"> Software Development
+<input type="checkbox" name="Topics" value="AI/ML Development" required> AI/ML model Development
+</td>
+</tr>
+ 
+                <tr>
+<td><input type="submit" value="Submit" required></td>
+<td><input type="reset" value="Reset" required></td>
+</tr>
+ 
+            </table>
+ 
+        </fieldset>
+ 
+    </form>
+<br>
+<a href="../index.html">Back to Home</a>
+
+</body>
+ 
+</html>
