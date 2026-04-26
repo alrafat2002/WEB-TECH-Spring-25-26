@@ -23,9 +23,9 @@ echo "VAT   : $vat\n";
 $num = 6;
 
 if ($num % 2 == 0) {
-    echo "$num is Even .\n";
+    echo "$num is Even\n";
 } else {
-    echo "$num is Odd .\n";
+    echo "$num is Odd\n";
 }
 
 $a = 45;
@@ -40,7 +40,7 @@ if ($a >= $b && $a >= $c) {
     echo "Largest: " . $c;
 }
 
-echo "Odd numbers (10–100): ";
+echo "Odd numbers (10-100): ";
 
 for ($i = 10; $i <= 100; $i++) {
     if ($i % 2 != 0) {
@@ -50,7 +50,7 @@ for ($i = 10; $i <= 100; $i++) {
 
 
 $fruits = ["apple", "banana", "mango", "orange", "grape"];
-$target = "mango";
+$tar = "mango";
 $found  = false;
 
 for ($i = 0; $i < count($fruits); $i++) {
